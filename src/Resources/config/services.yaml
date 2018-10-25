@@ -1,0 +1,8 @@
+services:
+    utils_bundle.twig.extension.asset_hash:
+        class: Adamski\Symfony\UtilsBundle\Twig\AssetHashExtension
+        arguments:
+            - "@assets.packages"
+            - "%kernel.project_dir%"
+        tags:
+            - { name: twig.extension }
