@@ -16,7 +16,7 @@ The package includes the following tools and helpers:
 
 | Name                                       | Category       | Description                                             |
 | ------------------------------------------ | -------------- | ------------------------------------------------------- |
-| [AssetHashExtension](#-assethashextension) | Twig Extension | The tool adds an MD5 checksum to the indicated resource |
+| [AssetHashExtension](#assethashextension) | Twig Extension | The tool adds an MD5 checksum to the indicated resource |
 
 ### AssetHashExtension
 
