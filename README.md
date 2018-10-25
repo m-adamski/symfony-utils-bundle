@@ -14,11 +14,11 @@ $ composer require m-adamski/symfony-utils-bundle
 
 The package includes the following tools and helpers:
 
-| Name                                        | Category       | Description                                             |
-| ------------------------------------------- | -------------- | ------------------------------------------------------- |
-| [AssetHashExtension](#asset_hash_extension) | Twig Extension | The tool adds an MD5 checksum to the indicated resource |
+| Name                                       | Category       | Description                                             |
+| ------------------------------------------ | -------------- | ------------------------------------------------------- |
+| [AssetHashExtension](#-assethashextension) | Twig Extension | The tool adds an MD5 checksum to the indicated resource |
 
-### <a name="asset_hash_extension"></a> AssetHashExtension
+### AssetHashExtension
 
 An additional Twig function named ``asset_hash`` is registered, which inserts the path to the indicated resource, and additionally inserts the MD5 checksum of the resource.
 
