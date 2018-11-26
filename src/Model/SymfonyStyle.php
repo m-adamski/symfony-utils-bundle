@@ -18,6 +18,17 @@ class SymfonyStyle extends BaseSymfonyStyle {
     }
 
     /**
+     * Display information about the task that will be processed.
+     *
+     * @param string $message
+     */
+    public function taskProcess(string $message) {
+        $this->writeln(
+            sprintf(" .. %s", $message)
+        );
+    }
+
+    /**
      * Successfully finish previous task.
      * This function replace arrow icon from previous task with check icon.
      */
@@ -96,6 +107,7 @@ class SymfonyStyle extends BaseSymfonyStyle {
         $messageMax = $messageMax > 0 ? $messageMax : 0;
 
         // Return part of a string
+        $message = "    " . $message;
         $message = substr($message, 0, $messageMax);
 
         // Calculate number of marks to insert
