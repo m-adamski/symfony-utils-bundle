@@ -1,6 +1,8 @@
-# Utils Bundle for Symfony 4
+# Utils Bundle for Symfony
 
 A collection of additional Symfony 4 tools that are small enough to create separate packages for them.
+
+This bundle is compatible with Symfony 4.1 and Symfony 5.0. Symfony 3.4 compatibility abandoned.
 
 ## Installation
 
